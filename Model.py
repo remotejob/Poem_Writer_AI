@@ -111,7 +111,7 @@ class Generator (object) :
     class CallBack( keras.callbacks.Callback ):
 
         def on_epoch_end(self, epoch, logs=None):
-            winsound.PlaySound('beep.wav', winsound.SND_FILENAME)
+            winsound.PlaySound('sound/beep.wav', winsound.SND_FILENAME)
 
 def predict(self , seed_text , seed=10 ):
 
